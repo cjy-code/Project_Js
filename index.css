@@ -87,10 +87,11 @@ h1{
     color:transparent; 
 }
 .js-toDoForm h6{
-    margin-top: -100px;
+    
     color: white;
     font-size: 1.5em;
     font-weight: bold;
+    margin-top: -80px;
 }
 
 #toDo{
@@ -116,6 +117,8 @@ h1{
 }
 
 .js-toDoList > li{
+    /* border: 1px solid wheat; */
+    width: 500px;
     animation: fadeIn .5s;
     text-align: right;
     margin: 5px auto;
@@ -125,17 +128,18 @@ h1{
     background-color: transparent;
     border: 1px solid white;
     color: white;
-    margin-right: 550px;
+    margin-right: 30px;
     align-items: flex-start;
 }
 
 .js-toDoList > li > span{
     color: white;
     display: inline-block;
-    width: 300px;
+    width: 400px;
     text-align: center;
-    margin-right: 30px;
+    margin-right:10px ;
     overflow-wrap: break-word;
+    /* border: 1px solid wheat; */
 }
 
 .js-toDoList > li > button:hover{
@@ -147,8 +151,8 @@ h1{
 
 
 .contain{
-    margin: 200px auto ;
-    width: 100%;
+    margin: 160px auto ;
+    width: 1000px;
     text-align: center;
     padding: 10px;
 }
