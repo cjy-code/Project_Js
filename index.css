@@ -1,0 +1,184 @@
+.btn{
+    cursor:pointer;
+}
+
+body{
+    background-color: #636e72;
+    transition: color 0.5s ease-in-out;
+}
+
+h1{
+    /* font-family: 'ImcreSoojin'; */
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.clicked {
+    color:#7f8c8d;
+}
+
+.form,
+.grettings{
+    display: none;
+}
+
+.showing{
+    display: block;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s;
+
+}
+
+.js-form > input{
+    position: relative;
+    top:-80px;
+    left: 0;
+    border-style: none;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.js-form > input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.js-form > input:focus{
+    outline: none;
+}
+
+#name{
+    position: relative;
+    top:-80px;
+    left: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    animation: fadeIn 1s;
+}
+
+.js-form > input:focus::-webkit-input-placeholder{
+    color:transparent; 
+}
+.js-toDoForm h6{
+    margin-top: -100px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#toDo{
+    position: relative;
+    top:-60px;
+    left: 0;
+    border-style: none;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 450px;
+    border-bottom: 1px solid white;
+}
+
+#toDo:focus{
+    outline: none;
+}
+
+.js-toDoList{
+    margin-top: -50px;
+}
+
+.js-toDoList > li{
+    animation: fadeIn .5s;
+    text-align: right;
+    margin: 5px auto;
+}
+
+.js-toDoList > li > button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-right: 550px;
+    align-items: flex-start;
+}
+
+.js-toDoList > li > span{
+    color: white;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin-right: 30px;
+    overflow-wrap: break-word;
+}
+
+.js-toDoList > li > button:hover{
+    background-color: rgb(166, 253, 224);
+    color:white;
+    cursor: pointer;
+    transition:  background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+
+.contain{
+    margin: 200px auto ;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.js-weather{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: right;
+    position: absolute;
+    top: 2%;
+    right: 3%;
+}
+
+
+/*점 지우기*/
+ul{
+    list-style:none;
+    padding-left:0px;
+}
+ 
+/*시계 폰트*/
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* What is name */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+
